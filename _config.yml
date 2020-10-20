@@ -18,8 +18,6 @@ twitter:
   username:
   card: summary #keep this to generate a twitter share card
 
-permalink: /:categories/:title/
-
 defaults:
     - scope:
         path: "_pages"
@@ -29,7 +27,7 @@ defaults:
 collections:
   libros:
     output: true
-    permalink: /catalogo/:path/
+    permalink: /:catalogo/:path/
 
 
 logo: /assets/imgs/logo.png
