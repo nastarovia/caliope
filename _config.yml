@@ -23,7 +23,7 @@ permalink: /:pages/:title/
 collections:
   libros:
     output: true
-    permalink: /:catalogo/:path/
+    permalink: /:collection/:path/
 
 
 logo: /assets/imgs/logo.png
