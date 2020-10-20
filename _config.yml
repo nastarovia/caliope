@@ -17,11 +17,13 @@ google_analytics: UA-111111111-1
 twitter:
   username:
   card: summary #keep this to generate a twitter share card
+  
+permalink: /:categories/:title/
 
 collections:
   libros:
     output: true
     permalink: /catalogo/:path/
 
-permalink: /:categories/:title/
+
 logo: /assets/imgs/logo.png
