@@ -12,7 +12,9 @@ email: "your.email@gmail.com"
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
+
 permalink: /:categories/:year/:month/:day/:title:output_ext
+
 google_analytics: UA-111111111-1
 twitter:
   username:
@@ -21,6 +23,7 @@ twitter:
 collections:
   libros:
     output: true
-    permalink: /catalogo/:path/
+    permalink: /:catalogo/:path/
+pages: /:basename/
 
 logo: /assets/imgs/logo.png
