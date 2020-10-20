@@ -24,6 +24,6 @@ collections:
   libros:
     output: true
     permalink: /:catalogo/:path/
-pages: /:basename/
+
 
 logo: /assets/imgs/logo.png
