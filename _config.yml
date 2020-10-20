@@ -18,16 +18,12 @@ twitter:
   username:
   card: summary #keep this to generate a twitter share card
 
-defaults:
-    - scope:
-        path: "_pages"
-      values:
-        permalink: /page/
+permalink: /:categories/:title/
 
 collections:
   libros:
     output: true
-    permalink: /:catalogo/:path/
+    permalink: /catalogo/:path/
 
 
 logo: /assets/imgs/logo.png
