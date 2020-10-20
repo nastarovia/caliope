@@ -17,8 +17,14 @@ google_analytics: UA-111111111-1
 twitter:
   username:
   card: summary #keep this to generate a twitter share card
-  
+
 permalink: /:categories/:title/
+
+defaults:
+    - scope:
+        path: "_pages"
+      values:
+        permalink: /page/:basename/
 
 collections:
   libros:
