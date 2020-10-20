@@ -11,7 +11,7 @@ tagline: "Del país vasco para usted"
 email: "your.email@gmail.com"
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/caliope" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 google_analytics: UA-111111111-1
 twitter:
   username:
