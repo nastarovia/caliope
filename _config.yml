@@ -22,12 +22,12 @@ defaults:
     - scope:
         path: "_pages"
       values:
-        permalink: /page/:basename/
+        permalink: /page/
 
 collections:
   libros:
     output: true
-    permalink: /catalogo/:path/
+    permalink: /:catalogo/:path/
 
 
 logo: /assets/imgs/logo.png
