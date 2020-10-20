@@ -25,5 +25,4 @@ collections:
     output: true
     permalink: /catalogo/:path/
 
-
 logo: /assets/imgs/logo.png
