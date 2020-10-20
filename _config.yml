@@ -10,8 +10,8 @@ title: "Libros de cocina" # the name of your site, e.g. ACME Corp.
 tagline: "Del país vasco para usted"
 email: "your.email@gmail.com"
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
 
 google_analytics: UA-111111111-1
 twitter:
