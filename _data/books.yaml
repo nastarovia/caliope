@@ -5,6 +5,7 @@
   description: 'Un libro hermoso y fundamental'
   cover: /assets/imgs/caminoSantiago.jpg
   slug: camino-de-santiago-plato-a-plato
+  url: /:collection/:path/
 
 - book: 'Las cofradías y sus recetas'
   author: 'Txuno Etxaniz'
@@ -13,6 +14,7 @@
   description: 'Un libro oscuro y fundamental'
   cover: /assets/imgs/cofradias.jpg
   slug: las-cofradias-y-sus-recetas
+  url: /:collection/:path/
 
 - book: 'La carne en nuestra cocina'
   author: 'Txuno Etxaniz'
@@ -21,6 +23,7 @@
   description: 'Un libro oscuro y fundamental'
   cover: /assets/imgs/carne.jpg
   slug: la-carne-en-nuestra-cocina
+  url: /:collection/:path/
 
 - book: 'Nuestros pescados en la cocina'
   author: 'Txuno Etxaniz'
@@ -29,3 +32,4 @@
   description: 'Un libro oscuro y fundamental'
   cover: /assets/imgs/pescados.jpg
   slug: nuestros-pescados-en-la-cocina
+  url: /:collection/:path/
