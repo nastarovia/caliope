@@ -18,7 +18,7 @@ twitter:
   username:
   card: summary #keep this to generate a twitter share card
 
-permalink: /categories/:title/
+permalink: /:pages/:title/
 
 collections:
   libros:
