@@ -1,0 +1,31 @@
+- book: 'Camino de Santiago plato a plato'
+  author: 'Pedro Martín'
+  paratextos: Epílogos de Juan Mari Arzak y Martín Berasategui
+  isbn: '978-84-940629-6-4'
+  description: 'Un libro hermoso y fundamental'
+  cover: /assets/imgs/caminoSantiago.jpg
+  slug: camino-de-santiago-plato-a-plato
+
+- book: 'Las cofradías y sus recetas'
+  author: 'Txuno Etxaniz'
+  paratextos:
+  isbn: '978-84-940629-6-2'
+  description: 'Un libro oscuro y fundamental'
+  cover: /assets/imgs/cofradias.jpg
+  slug: las-cofradias-y-sus-recetas
+
+- book: 'La carne en nuestra cocina'
+  author: 'Txuno Etxaniz'
+  paratextos:
+  isbn: '978-84-940629-6-2'
+  description: 'Un libro oscuro y fundamental'
+  cover: /assets/imgs/carne.jpg
+  slug: la-carne-en-nuestra-cocina
+
+- book: 'Nuestros pescados en la cocina'
+  author: 'Txuno Etxaniz'
+  paratextos:
+  isbn: '978-84-940629-6-2'
+  description: 'Un libro oscuro y fundamental'
+  cover: /assets/imgs/pescados.jpg
+  slug: nuestros-pescados-en-la-cocina

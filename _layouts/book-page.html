@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-ES' }}">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include navbar.html %}
+    <div class="jumbotron">
+    <h1 class="text-center">{{ page.title }}</h1>
+  </div>
+    <div class="container">
+
+       <div class="row">
+
+
+     <!--Row with ^two columns divided in 1:2 ratio-->
+
+         <div class="col-md-4">
+           {% include book-cover.html %}
+         </div>
+         <div class="col-md-1">
+           </div>
+         <div class="col-md-7">
+          {% include page-book-info.html %}
+         </div>
+
+     </div>
+
+ </div>
+{% include footer.html %}
+</body>
+</html>

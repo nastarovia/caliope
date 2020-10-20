@@ -1,0 +1,25 @@
+sass:
+  sass_dir: assets/css
+
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+title: "Libros de cocina" # the name of your site, e.g. ACME Corp.
+tagline: "Del país vasco para usted"
+email: "your.email@gmail.com"
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+google_analytics: UA-111111111-1
+twitter:
+  username:
+  card: summary #keep this to generate a twitter share card
+
+collections:
+  libros:
+    output: true
+    permalink: /catalogo/:path/
+
+logo: /assets/imgs/logo.png

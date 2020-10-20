@@ -1,0 +1,16 @@
+
+{% assign books = site.data.books %}
+
+{% for item in books %}
+
+  {% if item.book == page.title %}
+
+
+  <p class="bold">Autor: <b>{{ item.author }}</b></p>
+  <p class="italic"><em>{{  item.paratextos }}</em></p>
+  <p>ISBN: {{  item.isbn }}</p>
+  <p>Sinopsis: {{  item.description }}</p>
+
+  {% endif %}
+
+{% endfor %}
