@@ -3,7 +3,7 @@
    <div  class="row">
      {% for item in site.data.books %}
    <div class="col-md-3">
-     <a href="{{ item.slug }}"><img width="100%" src="{{ item.cover }}" class="img"/></a>
+     <a href="{{ :collection }}{{ item.slug }}"><img width="100%" src="{{ item.cover }}" class="img"/></a>
      <h4 class ="h5 text-center font-italic">{{ item.book }}</h4>
        <h5 class ="h6 text-center font-weight-light">{{ item.author }}</h5>
        </div>
